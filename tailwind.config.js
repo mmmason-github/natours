@@ -4,9 +4,16 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
-  presets: [],
   darkMode: 'class',
+  plugins: [],
+  presets: [],
   theme: {
+    extend: {
+      fontFamily: {
+        mono: ['var(--font-roboto-mono)'],
+        sans: ['var(--font-lato)'],
+      },
+    },
     accentColor: ({ theme }) => ({
       ...theme('colors'),
       auto: 'auto',
@@ -994,5 +1001,4 @@ module.exports = {
       50: '50',
     },
   },
-  plugins: [],
 }

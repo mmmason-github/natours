@@ -1,3 +1,5 @@
+import clsx from 'clsx';
+
 export default function Page() {
-  return <section></section>;
+  return <div className={clsx('')}></div>;
 }

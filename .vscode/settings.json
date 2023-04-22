@@ -33,7 +33,7 @@
   // Excluded
   "files.exclude": {
     "**/.eslintignore": true,
-    "**/.eslintrc.json": true,
+    "**/.eslintrc.json": false,
     "**/.gitignore": true,
     "**/.next": true,
     "**/.prettierignore": true,
