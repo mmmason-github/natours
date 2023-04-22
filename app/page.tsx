@@ -1,5 +1,10 @@
-import clsx from 'clsx';
+import Header from '../components/Header';
 
 export default function Page() {
-  return <div className={clsx('')}></div>;
+  return (
+    <>
+      <Header />
+      <main></main>
+    </>
+  );
 }

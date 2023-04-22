@@ -5,7 +5,9 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   darkMode: 'class',
-  plugins: [],
+  plugins: [
+    require('tailwind-clip-path'),
+  ],
   presets: [],
   theme: {
     extend: {

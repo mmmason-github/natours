@@ -18,6 +18,9 @@
       "@components/*": [
         "./components/"
       ],
+      "@public/*": [
+        "./public/*"
+      ],
       "@styles/*": [
         "./styles/*"
       ]

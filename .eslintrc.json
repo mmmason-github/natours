@@ -11,14 +11,14 @@
         "airbnb/hooks",
         "airbnb/rules/react",
         "eslint:recommended",
+        "next/core-web-vitals",
         "plugin:@typescript-eslint/recommended",
         "plugin:jsx-a11y/recommended",
+        "plugin:prettier/recommended",
         "plugin:react-hooks/recommended",
         "plugin:react/jsx-runtime",
         "plugin:react/recommended",
-        "next/core-web-vitals",
-        "plugin:tailwindcss/recommended",
-        "plugin:prettier/recommended"
+        "plugin:tailwindcss/recommended"
       ],
       "files": [
         "**/*.ts",
@@ -38,6 +38,7 @@
         "jsx-a11y",
         "react",
         "react-hooks",
+        "sort-keys-fix",
         "tailwindcss"
       ],
       "rules": {
@@ -215,6 +216,15 @@
         "semi": [
           "error",
           "always"
+        ],
+        "sort-keys": [
+          "error",
+          "asc",
+          {
+            "caseSensitive": true,
+            "minKeys": 2,
+            "natural": false
+          }
         ],
         "strict": "error",
         "tailwindcss/no-custom-classname": "error"

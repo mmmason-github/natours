@@ -46,7 +46,7 @@
     "**/postcss.config.js": true,
     "**/readme.md": true,
     "**/tailwind.config.js": false,
-    "**/tsconfig.json": true
+    "**/tsconfig.json": false
   },
   // Explorer
   "explorer.compactFolders": false,
